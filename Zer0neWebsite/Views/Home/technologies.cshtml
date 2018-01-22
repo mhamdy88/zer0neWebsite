@@ -3,18 +3,19 @@
 }
 <style>
     .header {
-        padding-bottom: 0px;
+        position: relative;
+        height: 625px;
     }
 
     .fixed-bg {
-        background-image: url("/images/_img.jpg");
-        position: relative;
+        background-image: url(/images/mobile-app.jpeg);
+        position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 590px;
-        z-index: -1;
-        background-size: 100%;
+        bottom: 0;
+        right: 0;
+        z-index: -2;
+        background-size: 1500px;
         background-position: top;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -24,7 +25,7 @@
         position: absolute;
         width: 100%;
         max-width: 400px;
-        top: 40%;
+        top: 20%;
         color: white;
         padding: 32px;
         /* background: gray; */
@@ -41,36 +42,32 @@
 </style>
 <div class="container" style="max-width:100%;padding:0px;">
     <div class="header">
+        <div class="overlayColor"></div>
         <div class="banner fixed-bg">
-            <div class="overlayColor"></div>
             @*<img src="~/images/img.jpg" />*@
-            <div class="HeaderText">
-                <h1 class="">تطبيقات الجوال</h1>
-                <p class="">تطبيقات ذكية معدة خصيصا لزيادة الانتاجية, تحسين خدمة العملاء, و تطوير أداء الأعمال.</p>
-            </div>
+
+        </div>
+        <div class="HeaderText"  data-aos="fade-left" data-aos-duration="2000">
+            <h1 class="">تطبيقات الجوال</h1>
+            <p class="">تطبيقات ذكية معدة خصيصا لزيادة الانتاجية, تحسين خدمة العملاء, و تطوير أداء الأعمال.</p>
         </div>
     </div>
 </div>
 
 <div class="container">
     <div class="row section" data-aos="fade-up" data-aos-duration="2000">
-        
         <div class="col-md-6">
             <img src="~/images/mock2.jpg" style='width:100%' />
         </div>
         <div class="col-md-6">
             <div class="row">
-                <div class="col-md-1">
+                <div class="col-md-2">
                     <span class="sectionNumber">01</span>
                 </div>
-                <div class="col-md-11">
-                    <span class="sectionTitle">البركة سر النجاح</span>
+                <div class="col-md-10">
+                    <span class="sectionTitle">HTML</span>
                     <p>
-                        مع اعتماد الاستراتيجية الجديدة في شركة علم، بدأ نمونا ينتقل من مرحلة يغلب عليها النمو الكمي للأعمال، إلى نمو نوعي يتأسس في
-                        بيئة العمل نفسها، ونرى ذلك جليّا من خلال النقلات الكبيرة التي حققتها الشركة في قطاع تحسين الإجراءات
-                        الحكومية والإسناد، وقامت بتشغيلها بطابع القطاع الخاص، وانتقلت من مفهوم (المراجع) إلى مفهوم (العميل).
-                        نقدم في وحدة الإسناد الحكومي خدماتنا في مجالات عدّة نيابة عن العميل، ضمن أعلى المعايير والضوابط
-                        التي وضعتها عِلم للقيام بأي عمل مهما كان مجاله، وذلك في خمسة مجالات
+                        انه الاصدار الاخير والمحسن من لغة HTML والتي هي ليست لغة برمجة في الحقيقة بل لغة توصيف لبرمجة مواقع الانترنت والتي تهدف الى تقليص حاجة الصفحات الديناميكيه للمشغلات مثل : Adobe Flash , Microsoft Silverlight ,JavaFX وبما أن شبكة الانترنت سوف تتقلص حاجته لتلك المشغلات هذا يعني تقليص إحتياج المتصفحات والأنظمه لها ايضا فسابقا يلزم عرض أي ملف فديو على موقع انترنت إلى مشغل الفلاش Flash Player ولكن مع لغة HTML5 لم يعد لها حاجة
                     </p>
                 </div>
             </div>
@@ -78,17 +75,13 @@
     </div>
     <div class="row section" data-aos="fade-left" data-aos-duration="2000">
         <div class="col-md-6">
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <span class="sectionNumber">02</span>
             </div>
-            <div class="col-md-11">
-                <span class="sectionTitle">البركة سر النجاح</span>
+            <div class="col-md-10">
+                <span class="sectionTitle">AngularJS</span>
                 <p>
-                    مع اعتماد الاستراتيجية الجديدة في شركة علم، بدأ نمونا ينتقل من مرحلة يغلب عليها النمو الكمي للأعمال، إلى نمو نوعي يتأسس في
-                    بيئة العمل نفسها، ونرى ذلك جليّا من خلال النقلات الكبيرة التي حققتها الشركة في قطاع تحسين الإجراءات
-                    الحكومية والإسناد، وقامت بتشغيلها بطابع القطاع الخاص، وانتقلت من مفهوم (المراجع) إلى مفهوم (العميل).
-                    نقدم في وحدة الإسناد الحكومي خدماتنا في مجالات عدّة نيابة عن العميل، ضمن أعلى المعايير والضوابط التي
-                    وضعتها عِلم للقيام بأي عمل مهما كان مجاله، وذلك في خمسة مجالات
+                    هو عبارة عن إطار Frame Work مفتوح المصدر Open source من إنتاج شركة غوغل، وهو أحد أشهر الأطر المبنية على لغة جافا سكربت JavaScript ويتميز بامكانية عرض جميع اجراءات الموقع من خلال صفحة واحدة Single Page Application.
                 </p>
             </div>
         </div>
@@ -98,20 +91,114 @@
     </div>
     <div class="row section" data-aos="fade-right" data-aos-duration="2000">
         <div class="col-md-6">
+            <img src="~/images/mock1.jpg" style='width:100%' />
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-2">
+                <span class="sectionNumber">02</span>
+            </div>
+            <div class="col-md-10">
+                <span class="sectionTitle">ReactJS</span>
+                <p>
+                    يعتبر React.js  من احد أقوى أطر عمل Javascript لبناء الواجهات الرسومية على الويب، حيث طبّق أفكارًا جديدة في هذا المجال، جعلت شِفرة الواجهات البرمجية أكثر وضوح و سرعة وأكثر قابلية للصيانة. يسمح لك React ببناء الواجهة الرسومية في مجموعة مكونات، كل مكوّن عبارة عن سرد لهيكلة ومنطق المكون، إذا تمزج بين شِفرة HTML مخصصّة وشِفرة جافاسكربت تصف سلوك ذاك المكون، ليكون قائما بذاته وقابلا لإعادة الاستعمال.
+                    إطار عمل React مُطور من طرف شركة فيس بوك (Facebook)، وهو مايزيدها ثقة ويجذب الانتباه اليها بمجرد معرفة أن فيس بوك نفسها تستخدم React في واجهتها البرمجية على موقعها! يمكنك فتح موقع Facebook وعرض شفرة HTML الخاصة به والبحث عن كلمة react للتأكد بنفسك.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row section" data-aos="fade-left" data-aos-duration="2000">
+        <div class="col-md-6">
+            <div class="col-md-2">
+                <span class="sectionNumber">03</span>
+            </div>
+            <div class="col-md-10">
+                <span class="sectionTitle">.Net</span>
+                <p>
+                    هو اطار عمل ضخم تم تطويره من قبل مايكروسوفت يضم مكتبة كبيرة لحل مشاكل ترميز الشبكة بين المتصلين،ويدعم لغات البرمجة والتقنيات المتعددة ويقدم مجموعة كبيرة من الميزات بما في ذلك واجهة المستخدم والوصول إلى البيانات وللاتصال بقاعدة البيانات والترميز على شبكة الإنترنت
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="~/images/mock4.jpg" style='width:100%' />
+        </div>
+    </div>
+    <div class="row section" data-aos="fade-right" data-aos-duration="2000">
+        <div class="col-md-6">
             <img src="~/images/mock4.jpg" style='width:100%' />
         </div>
         <div class="col-md-6">
-            <div class="col-md-1">
+            <div class="col-md-2">
                 <span class="sectionNumber">03</span>
             </div>
-            <div class="col-md-11">
-                <span class="sectionTitle">البركة سر النجاح</span>
+            <div class="col-md-10">
+                <span class="sectionTitle">SQL Server</span>
                 <p>
-                    مع اعتماد الاستراتيجية الجديدة في شركة علم، بدأ نمونا ينتقل من مرحلة يغلب عليها النمو الكمي للأعمال، إلى نمو نوعي يتأسس في
-                    بيئة العمل نفسها، ونرى ذلك جليّا من خلال النقلات الكبيرة التي حققتها الشركة في قطاع تحسين الإجراءات
-                    الحكومية والإسناد، وقامت بتشغيلها بطابع القطاع الخاص، وانتقلت من مفهوم (المراجع) إلى مفهوم (العميل).
-                    نقدم في وحدة الإسناد الحكومي خدماتنا في مجالات عدّة نيابة عن العميل، ضمن أعلى المعايير والضوابط التي
-                    وضعتها عِلم للقيام بأي عمل مهما كان مجاله، وذلك في خمسة مجالات
+                    هو برنامج لقواعد البيانات العلائقية من إنتاج مايكروسوفت، لغة الاستعلام الرئيسية فيه هي إس كيو إل وتي-سكيول ويعتبر أحد أكبر قواعد البيانات المستخدمة في وقتنا الحالي
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row section" data-aos="fade-left" data-aos-duration="2000">
+        <div class="col-md-6">
+            <div class="col-md-2">
+                <span class="sectionNumber">03</span>
+            </div>
+            <div class="col-md-10">
+                <span class="sectionTitle">Xamarin</span>
+                <p>
+                    تنطق بالعربية (زامرن)، وهي منصة لتطوير تطبيقات الهواتف الذكية على منصات متعددة(Cross-Platform) باستخدام لغة واحدة هي لغة سي شارب (C#). توفر إمكانية تطوير تطبيقات اصلية (Native Apps) للانظمة المختلفة مثل IOS, Android and Windows Phone.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="~/images/mock4.jpg" style='width:100%' />
+        </div>
+    </div>
+    <div class="row section" data-aos="fade-right" data-aos-duration="2000">
+        <div class="col-md-6">
+            <img src="~/images/mock4.jpg" style='width:100%' />
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-2">
+                <span class="sectionNumber">03</span>
+            </div>
+            <div class="col-md-10">
+                <span class="sectionTitle">NodeJS</span>
+                <p>
+                    هو اطار عمل برمج العديد من وحداته Modules الأساسية بلغه الJavaScript
+                    من المعروف بأن لغة الجافا سكربت هي لغة الClient Side، بمعنى ان منصة Node.js التي أعطت للجافا سكريبت بعدا آخر حيث أصبح بإمكاننا استعمال الجافا سكريبت خارج المتصفحات والتعامل مع الخوادم مباشرة وبعد تطوير هذا الباترن (النود جي اس) الذي يعمل بمحرك قوقل V8 والعديد من الlibraries الاخرى اصبح الامر اكثر تعقيدا من ذي قبل و تحول هذا الإطار بالعمل في السيرفر، الNode.js اصبح إطار عمل Functionality حركية و ديناميكية بشكل تام بإمكانك التعامل مع قواعد البيانات وما الى ذلك من خلاله بكل سهوله بمعنى آخر يمكن تطوير تطبيقات سريعة وفعالة باستعمال لغة واحدة فقط وهي الجافا سكريبت. ويستخدم إطار الNode.js لبرمجة تطبيقات الويب بالتحديد و المواقع بشكل عام
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row section" data-aos="fade-left" data-aos-duration="2000">
+        <div class="col-md-6">
+            <div class="col-md-2">
+                <span class="sectionNumber">03</span>
+            </div>
+            <div class="col-md-10">
+                <span class="sectionTitle">Amazon AWS</span>
+                <p>
+                    خدمات أمازون ويب (Amazon Web Services وإختصاراً AWS) وهي مجموعة خدمات للحوسبة البعيدة وتدعى أيضاً خدمات الويب، وجميعها معاً تصنع منصة الحوسبة السحابية تقدم على الإنترنت من قبل شركة أمازون
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="~/images/mock4.jpg" style='width:100%' />
+        </div>
+    </div>
+    <div class="row section" data-aos="fade-right" data-aos-duration="2000">
+        <div class="col-md-6">
+            <img src="~/images/mock4.jpg" style='width:100%' />
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-2">
+                <span class="sectionNumber">03</span>
+            </div>
+            <div class="col-md-10">
+                <span class="sectionTitle">Socket.io</span>
+                <p>
+                    هو framework موجهة للـ Node.js هدفها عمل تطبيقات تعمل في الوقت الحقيقي real-time ممكن عن طريقها تستخدم بروتوكول websocket او تقنيات مختلفه مثل flash - JSONP polling, AJAX long polling ، وهي مدعومة من كثير من المتصفحات
                 </p>
             </div>
         </div>
