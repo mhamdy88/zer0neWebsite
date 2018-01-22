@@ -1,0 +1,31 @@
+﻿<html>
+
+<head>
+
+    <link href="~/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/bootstrap-rtl.css" rel="stylesheet" />
+    <link href="~/css/aos.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" />
+
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/jquery-ui.min.js"></script>
+    <script src="~/js/aos.js"></script>
+    <script src="~/js/main.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+
+<body>
+
+    @Html.Partial("_Menu")
+    @Html.Partial("_TopBar")  
+ 
+        @RenderBody()
+    
+
+    @Html.Partial("_Footer")
+    
+
+</body>
+
+</html>

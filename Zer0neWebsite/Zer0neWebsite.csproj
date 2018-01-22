@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Page.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\images\1.svg" />
+    <Content Include="wwwroot\images\Amazone AWS.jpg" />
+    <Content Include="wwwroot\images\Amazone AWS.png" />
+    <Content Include="wwwroot\images\angular%401x.jpg" />
+    <Content Include="wwwroot\images\angular.png" />
+    <Content Include="wwwroot\images\aspnet.png" />
+    <Content Include="wwwroot\images\burger_menu.png" />
+    <Content Include="wwwroot\images\dotnet.png" />
+    <Content Include="wwwroot\images\html5.png" />
+    <Content Include="wwwroot\images\logo.png" />
+    <Content Include="wwwroot\images\mock1.jpg" />
+    <Content Include="wwwroot\images\mock2.jpg" />
+    <Content Include="wwwroot\images\mock4.jpg" />
+    <Content Include="wwwroot\images\mssql.png" />
+    <Content Include="wwwroot\images\nodejs.jpg" />
+    <Content Include="wwwroot\images\nodejs.png" />
+    <Content Include="wwwroot\images\react%401x.jpg" />
+    <Content Include="wwwroot\images\react.png" />
+    <Content Include="wwwroot\images\riyadh.jpg" />
+    <Content Include="wwwroot\images\riyadh2.jpg" />
+    <Content Include="wwwroot\images\Socket.io.jpg" />
+    <Content Include="wwwroot\images\Socket.io.png" />
+    <Content Include="wwwroot\images\tmp.jpg" />
+    <Content Include="wwwroot\images\tmp1.jpg" />
+    <Content Include="wwwroot\images\tmp2.jpg" />
+    <Content Include="wwwroot\images\tmp3.jpg" />
+    <Content Include="wwwroot\images\videoplayback.3gp" />
+    <Content Include="wwwroot\images\web-code.png" />
+    <Content Include="wwwroot\images\xamarin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,9 @@
+E:\Work\Zer0ne.tech\website\project\Zer0neWebsite\Zer0neWebsite\bin\Debug\netcoreapp1.1\Zer0neWebsite.deps.json
+E:\Work\Zer0ne.tech\website\project\Zer0neWebsite\Zer0neWebsite\bin\Debug\netcoreapp1.1\Zer0neWebsite.runtimeconfig.json
+E:\Work\Zer0ne.tech\website\project\Zer0neWebsite\Zer0neWebsite\bin\Debug\netcoreapp1.1\Zer0neWebsite.runtimeconfig.dev.json
+E:\Work\Zer0ne.tech\website\project\Zer0neWebsite\Zer0neWebsite\bin\Debug\netcoreapp1.1\Zer0neWebsite.dll
+E:\Work\Zer0ne.tech\website\project\Zer0neWebsite\Zer0neWebsite\bin\Debug\netcoreapp1.1\Zer0neWebsite.pdb
+E:\Work\Zer0ne.tech\website\project\Zer0neWebsite\Zer0neWebsite\obj\Debug\netcoreapp1.1\Zer0neWebsite.csprojResolveAssemblyReference.cache
+E:\Work\Zer0ne.tech\website\project\Zer0neWebsite\Zer0neWebsite\obj\Debug\netcoreapp1.1\Zer0neWebsite.AssemblyInfo.cs
+E:\Work\Zer0ne.tech\website\project\Zer0neWebsite\Zer0neWebsite\obj\Debug\netcoreapp1.1\Zer0neWebsite.dll
+E:\Work\Zer0ne.tech\website\project\Zer0neWebsite\Zer0neWebsite\obj\Debug\netcoreapp1.1\Zer0neWebsite.pdb
